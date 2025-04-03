@@ -2,6 +2,7 @@
 use python 3.7; had issues with new python versions
 ```
 conda env create -f environment.yml -n samplot_env
+conda activate samplot_env
 ```
 decompress BAMs, make sure the indices (.bai) are in same directory
 ```
